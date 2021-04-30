@@ -22,8 +22,8 @@ body{
     overflow: hidden;
     border-radius: 15px;
         
-    
 }
+
 .container h1{
     color: var(--gray);
     font-family: 'Big Shoulders Display';
@@ -64,6 +64,16 @@ body{
     padding: 10px;      
 }
 
+
+.sedans button:hover{
+    background-color: var(--orange);
+    color: white;
+    border-color: black;
+    border: solid;
+
+}
+
+
 .sedans footer{
     margin-left: 25%;
     margin-top: 20%;
@@ -94,11 +104,19 @@ body{
 
 .suvs button{
     color: var(--cyan);
-    border-radius: 15px;
+    border-radius: 20px;
     border:0px;
     width: 60%;
     font-size: 20px;
     padding: 10px;
+
+}
+
+.suvs button:hover{
+    background-color: var(--cyan);
+    color: white;
+    border-color: black;
+    border: solid;
 
 }
 
@@ -127,10 +145,17 @@ body{
 
 .luxury button{
     color: var(--dark);
-    border-radius: 15px;
+    border-radius: 20px;
     border:0px;
     width: 60%;
     font-size: 20px;
     padding: 10px;
+}
+
+.luxury button:hover{
+    background-color: var(--dark);
+    color: white;
+    border-color: black;
+    border: solid;
 
 }
